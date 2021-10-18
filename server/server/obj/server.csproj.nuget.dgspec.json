@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\yaeli\\גיבוי\\Test\\server\\server\\server.csproj": {}
+    "C:\\Users\\User\\Desktop\\testtest\\server\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\yaeli\\גיבוי\\Test\\server\\server\\server.csproj": {
+    "C:\\Users\\User\\Desktop\\testtest\\server\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\yaeli\\גיבוי\\Test\\server\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\testtest\\server\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\User\\Desktop\\yaeli\\גיבוי\\Test\\server\\server\\server.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\testtest\\server\\server\\server.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\yaeli\\גיבוי\\Test\\server\\server\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\testtest\\server\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -23,10 +23,11 @@ class  Welcome extends React.Component {
    
 }
 
-//The function performed at a presson the button
-async function send(params:string) {
+async function send(params: string) {
   let array: Array<string> = new Array<string>();
-  await fetch("https://localhost:44331/api/Cities/GetCity/" + "Tel Aviv" )
+  let inputValue=(document.getElementById("input") as HTMLInputElement).value;
+  //the call to server
+  await fetch("https://localhost:44331/api/Cities/GetCity/"+inputValue)
       .then(res => res.json())
       .then(data => {
           data.map((item: any) =>
